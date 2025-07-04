@@ -92,7 +92,7 @@ stages:
   jobs:
   - deployment: DeployWebApp
     displayName: Deploy to Linux App Service
-    environment: prod   # Azure DevOps Environment name (optional but recommended)
+    # environment: prod   # Azure DevOps Environment name (optional but recommended)
     pool:
       name: Azure Pipelines
 
